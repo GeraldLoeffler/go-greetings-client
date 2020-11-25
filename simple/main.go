@@ -9,12 +9,10 @@ import (
 
 func main() {
 	args := os.Args
-	argsLen := len(args)
-	if argsLen < 2 {
-		// no name
+	switch len(args) {
+	case 0, 1: // no name
 		log.Fatal("Missing command-line arg")
-	} else if argsLen == 2 {
-		// one name
+	case 2: // one name
 		n := args[1]
 
 		g, err := greetings.Greet(n)
@@ -23,8 +21,7 @@ func main() {
 		}
 
 		log.Print("Greeting ", n, " with: ", g)
-	} else {
-		// many names
+	default: // many names
 		ns := args[1:]
 
 		gs, err := greetings.GreetAll(ns)
