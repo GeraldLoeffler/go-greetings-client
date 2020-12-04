@@ -20,7 +20,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		log.Print("Greeting ", n, " with: ", g)
+		log.Print("Greeting ", n, " with: ", g.Greeting)
 	default: // many names
 		ns := args[1:]
 
@@ -32,7 +32,7 @@ func main() {
 		// could loop over range of map, but want to keep order of names
 		for _, n := range ns {
 			g := gs[n]
-			log.Print("Greeting ", n, " with: ", g)
+			log.Print("Greeting ", n, " with: ", g.Greeting)
 		}
 	}
 }

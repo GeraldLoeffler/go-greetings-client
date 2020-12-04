@@ -1,2 +1,4 @@
 github.com/GeraldLoeffler/go-greetings v0.0.0-20201120103358-fbf308f69dfc h1:qiA7ZeKg3Xbq1R+tH4XPQ3lAbw7pnjNPeURPUPICZio=
 github.com/GeraldLoeffler/go-greetings v0.0.0-20201120103358-fbf308f69dfc/go.mod h1:f8/GqtIW0on/TNkMEoGTn19xX4xnNnp/kg9GuCfx1mQ=
+github.com/GeraldLoeffler/go-greetings v0.0.0-20201204184232-c5628a2d6cee h1:l8VRvFwG0/zeqFI9w6tKy+oZwuKGISv3h9oZ0mhFSdU=
+github.com/GeraldLoeffler/go-greetings v0.0.0-20201204184232-c5628a2d6cee/go.mod h1:f8/GqtIW0on/TNkMEoGTn19xX4xnNnp/kg9GuCfx1mQ=
